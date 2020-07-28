@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大文件上传</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+</head>
+<body>
+<div style="width: 100%;margin-top: 3%" align="center">
+    <input type="button" class="btn btn-default" onclick="oneUp()" value="单文件上传">
+    <input type="button" class="btn btn-default" onclick="multiUp()" value="文件夹上传">
+</div>
+<script type="text/javascript" src="../jquery-3.4.1.js"></script>
+<script>
+    function oneUp() {
+        window.location.href="/toPath/toOneUp";
+    }
+    function multiUp() {
+        window.location.href="/toPath/toMultiUp";
+    }
+</script>
+</body>
+</html>
